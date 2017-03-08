@@ -76,6 +76,21 @@ $(function() {
 						} else {
 							$('.num li').eq(i).addClass('active').siblings().removeClass('active');
 						}
-					}, 4000)
-				})
-			})
+					}, 4000);
+				});
+				$("#Global").click(function(){
+						$("article").toggle();
+				});
+				$(".asideTop").mouseover(function(){
+					$("#backTop").show();
+				});
+				$("#backTop").mouseout(function(){
+					$("#backTop").hide();
+				});
+				$(".asideBottom").mouseover(function(){
+					$("#opin").show();
+				});
+				$("#opin").mouseout(function(){
+					$("#opin").hide();
+				});
+			});
