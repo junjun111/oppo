@@ -11,11 +11,11 @@
 			//	document.body.scrollTop = document.documentElement.scrollTop = 0;
 				var scrollTop = document.body.scrollTop||document.documentElement.scrollTop;
 				timer = setInterval(function(){
-					scrollTop-=30;
+					scrollTop-=80;
 					document.body.scrollTop = scrollTop;
 					if(scrollTop<=0){
 						clearInterval(timer);
 					}
-				},30)
+				},30);
 			});
-    }
+   };

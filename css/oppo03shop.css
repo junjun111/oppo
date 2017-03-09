@@ -41,91 +41,94 @@ a {
   #nav .nav-right {
     width: 800px;
     float: right;
-    margin-right: 31.5px;
-    margin-top: 30px; }
+    margin-right: 31.5px; }
     #nav .nav-right ul {
       width: 550px;
-      float: right; }
+      float: left;
+      margin-top: 30px;
+      margin-left: 150px; }
     #nav .nav-right ul li {
       padding-left: 20px;
       padding-right: 20px;
       float: left; }
-      #nav .nav-right ul li:nth-child(1) a {
+      #nav .nav-right ul li:nth-child(3) a {
         border-bottom: 2px solid #2AAD6F; }
       #nav .nav-right ul li a {
         display: block;
         padding-bottom: 3px;
         color: #7b7b7b; }
+    #nav .nav-right #shopcar {
+      margin-top: 20px;
+      width: 80px;
+      height: 52px;
+      float: right; }
 
 .nav-right a:hover {
   font-weight: bolder;
   color: #393939; }
 
-.banner {
+#banner {
   width: 1263px;
-  height: 568px;
-  position: relative;
-  overflow: hidden; }
-  .banner .img {
-    position: absolute;
-    top: 0;
-    left: 0; }
-    .banner .img img {
-      width: 1263px;
-      height: 568px; }
-    .banner .img li {
-      float: left; }
+  height: 568px; }
+  #banner img {
+    width: 1263px;
+    height: 568px; }
 
-.num {
-  position: absolute;
-  bottom: 10px;
-  width: 100%;
-  text-align: center;
-  font-size: 0; }
-
-.num li {
-  width: 14px;
-  height: 14px;
-  background: rgba(0, 0, 0, 0.5);
-  display: block;
-  border-radius: 100%;
-  display: inline-block;
-  margin: 0 5px;
-  cursor: pointer; }
-
-.btn span {
-  display: block;
-  width: 35px;
-  height: 67px;
-  color: #fff;
-  line-height: 67px;
-  text-align: center;
-  cursor: pointer; }
-
-.btn .prev {
-  position: absolute;
-  left: 40px;
-  top: 50%;
-  font-size: 67px; }
-
-.btn .next {
-  position: absolute;
-  right: 40px;
-  top: 50%;
-  font-size: 67px; }
-
-.num .active {
-  background-color: #fff;
-  border: 1px solid #2AAD6F; }
-
-#section {
+section {
   width: 1263px;
-  height: 208px;
-  margin-top: 5px; }
-  #section img {
-    width: 421px;
-    height: 208px;
-    float: left; }
+  padding-left: 32px;
+  padding-top: 80px;
+  padding-bottom: 50px; }
+  section #box {
+    width: 1176px;
+    height: 472px; }
+    section #box .pho_1 {
+      border: 1px solid #E0E0E0;
+      width: 294px;
+      height: 472px;
+      text-align: center;
+      position: relative;
+      cursor: pointer;
+      float: left;
+      opacity: 1; }
+      section #box .pho_1 img {
+        width: 264px;
+        height: 264px;
+        margin-top: 80px;
+        margin-left: 15px; }
+      section #box .pho_1 .ab_f {
+        width: 62px;
+        height: 68px;
+        position: absolute;
+        right: 0;
+        top: -80px; }
+      section #box .pho_1 .p1 {
+        margin-top: 50px;
+        height: 17px;
+        font-size: 16px;
+        color: #393939;
+        font-weight: 400; }
+      section #box .pho_1 .p2 {
+        margin-top: 30px;
+        margin-left: 100px;
+        width: 93px;
+        height: 22px; }
+        section #box .pho_1 .p2 a {
+          font-size: 20px;
+          color: #2AAD6F; }
+
+#adress {
+  width: 1263px;
+  height: 353px;
+  background: #f6f6f6;
+  padding-left: 42px;
+  padding-top: 25px; }
+  #adress div {
+    width: 1176px;
+    height: 328px; }
+    #adress div img {
+      width: 1176px;
+      height: 328px; }
 
 #footer {
   width: 1263px;
@@ -310,4 +313,4 @@ article {
         font-weight: bolder;
         color: #7b7b7b; }
 
-/*# sourceMappingURL=oppo01.css.map */
+/*# sourceMappingURL=oppo03shop.css.map */

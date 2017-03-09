@@ -26,6 +26,41 @@ a {
   #header ul li a {
     color: white; }
 
+article {
+  width: 1263px;
+  height: 134px;
+  background: #ededed;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 0;
+  top: 35px;
+  z-index: 10;
+  display: none; }
+  article h3 {
+    width: 1176px;
+    height: 18px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #292929;
+    padding-left: 10px;
+    margin: 15px 43px; }
+  article ul {
+    width: 1176px;
+    height: 84px;
+    margin-left: 43px; }
+    article ul li {
+      float: left;
+      width: 143px;
+      height: 28px;
+      line-height: 28px;
+      text-align: center; }
+      article ul li:last-child a {
+        color: #2AAD6F; }
+      article ul li a {
+        font-size: 16px;
+        font-weight: bolder;
+        color: #7b7b7b; }
+
 #nav {
   width: 1263px;
   height: 78px;
@@ -50,7 +85,7 @@ a {
       padding-left: 20px;
       padding-right: 20px;
       float: left; }
-      #nav .nav-right ul li:nth-child(1) a {
+      #nav .nav-right ul li:nth-child(2) a {
         border-bottom: 2px solid #2AAD6F; }
       #nav .nav-right ul li a {
         display: block;
@@ -61,71 +96,130 @@ a {
   font-weight: bolder;
   color: #393939; }
 
-.banner {
+section {
   width: 1263px;
-  height: 568px;
-  position: relative;
-  overflow: hidden; }
-  .banner .img {
-    position: absolute;
-    top: 0;
-    left: 0; }
-    .banner .img img {
-      width: 1263px;
-      height: 568px; }
-    .banner .img li {
-      float: left; }
-
-.num {
-  position: absolute;
-  bottom: 10px;
-  width: 100%;
-  text-align: center;
-  font-size: 0; }
-
-.num li {
-  width: 14px;
-  height: 14px;
-  background: rgba(0, 0, 0, 0.5);
-  display: block;
-  border-radius: 100%;
-  display: inline-block;
-  margin: 0 5px;
-  cursor: pointer; }
-
-.btn span {
-  display: block;
-  width: 35px;
-  height: 67px;
-  color: #fff;
-  line-height: 67px;
-  text-align: center;
-  cursor: pointer; }
-
-.btn .prev {
-  position: absolute;
-  left: 40px;
-  top: 50%;
-  font-size: 67px; }
-
-.btn .next {
-  position: absolute;
-  right: 40px;
-  top: 50%;
-  font-size: 67px; }
-
-.num .active {
-  background-color: #fff;
-  border: 1px solid #2AAD6F; }
-
-#section {
-  width: 1263px;
-  height: 208px;
-  margin-top: 5px; }
-  #section img {
-    width: 421px;
-    height: 208px;
-    float: left; }
+  background: #f7f7f7;
+  padding-left: 32px; }
+  section #main_top {
+    width: 1200px;
+    height: 51x;
+    line-height: 51px;
+    color: #7b7b7b; }
+  section #main_center {
+    width: 1200px;
+    height: 738px; }
+    section #main_center #box {
+      float: left;
+      width: 790px;
+      height: 738px; }
+    section #main_center .centerF {
+      width: 770px;
+      height: 365px;
+      position: relative;
+      margin: 0 10px;
+      overflow: hidden; }
+      section #main_center .centerF img {
+        width: 770px;
+        height: 365px; }
+        section #main_center .centerF img:nth-child(2) {
+          position: absolute;
+          z-index: 2;
+          left: 0;
+          top: 0; }
+    section #main_center .centerS {
+      margin: 8px 10px 0;
+      width: 770px;
+      height: 365px;
+      position: relative;
+      overflow: hidden; }
+      section #main_center .centerS img {
+        width: 770px;
+        height: 365px; }
+        section #main_center .centerS img:nth-child(1) {
+          position: absolute;
+          left: 0;
+          top: 0;
+          z-index: 2; }
+    section #main_center .centerT {
+      float: right;
+      width: 396px;
+      height: 738px;
+      position: relative;
+      overflow: hidden; }
+      section #main_center .centerT img {
+        display: block;
+        width: 396px;
+        height: 738px; }
+        section #main_center .centerT img:nth-child(1) {
+          position: absolute;
+          z-index: 2;
+          left: 0;
+          top: 0; }
+  section #main_bottom {
+    width: 1200px; }
+    section #main_bottom .bottom_top {
+      margin-top: 100px;
+      width: 1176px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      color: #393939; }
+    section #main_bottom .bottom_center {
+      margin-top: 30px;
+      margin-bottom: 20px;
+      width: 1176px;
+      height: 21px;
+      line-height: 21px;
+      font-size: 20px;
+      color: #7B7B7B; }
+      section #main_bottom .bottom_center h3 {
+        display: inline; }
+    section #main_bottom .pho_f {
+      width: 1176px;
+      height: 371px; }
+      section #main_bottom .pho_f .pho_1 {
+        float: left;
+        width: 286px;
+        height: 365px;
+        text-align: center;
+        margin-top: 10px;
+        margin-right: 15px;
+        background: #fff;
+        margin-bottom: 10px;
+        cursor: pointer; }
+        section #main_bottom .pho_f .pho_1 img {
+          margin-top: 40px;
+          margin-left: 60px;
+          display: block;
+          width: 161px;
+          height: 182px; }
+        section #main_bottom .pho_f .pho_1 .p1 {
+          margin-top: 30px;
+          width: 246px;
+          height: 20px;
+          font-size: 16px;
+          color: #292929; }
+        section #main_bottom .pho_f .pho_1 .p2 {
+          margin-top: 10px;
+          width: 246px;
+          height: 20px;
+          font-size: 12px;
+          font-weight: bolder;
+          color: #7B7B7B; }
+  section #main_footer {
+    width: 1176px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 100px; }
+    section #main_footer div {
+      float: left;
+      width: 583px;
+      height: 300px; }
+      section #main_footer div:first-child {
+        margin-right: 10px; }
+      section #main_footer div img {
+        width: 583px;
+        height: 300px; }
 
 #footer {
   width: 1263px;
@@ -276,38 +370,4 @@ aside {
     width: 20px;
     height: 20px; }
 
-article {
-  width: 1263px;
-  height: 134px;
-  background: #ededed;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-  position: absolute;
-  left: 0;
-  top: 35px;
-  display: none; }
-  article h3 {
-    width: 1176px;
-    height: 18px;
-    font-size: 18px;
-    font-weight: bolder;
-    color: #292929;
-    padding-left: 10px;
-    margin: 15px 43px; }
-  article ul {
-    width: 1176px;
-    height: 84px;
-    margin-left: 43px; }
-    article ul li {
-      float: left;
-      width: 143px;
-      height: 28px;
-      line-height: 28px;
-      text-align: center; }
-      article ul li:last-child a {
-        color: #2AAD6F; }
-      article ul li a {
-        font-size: 16px;
-        font-weight: bolder;
-        color: #7b7b7b; }
-
-/*# sourceMappingURL=oppo01.css.map */
+/*# sourceMappingURL=oppo03pro.css.map */
