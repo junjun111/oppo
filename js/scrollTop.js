@@ -6,6 +6,11 @@
 	    }else{
 	    	$("aside").css({"display":"none"});
 	    }
+	    if(scrollTop>=908){
+	    	$("#mainposition").css({"display":"block"});
+	    }else{
+	    	$("#mainposition").css({"display":"none"});
+	    }
 	    var timer;
 			$("#backTop").click(function(){
 			//	document.body.scrollTop = document.documentElement.scrollTop = 0;

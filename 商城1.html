@@ -3,11 +3,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="css/oppo03shop.css"/>
+		<link rel="stylesheet" type="text/css" href="css/oppo04shop.css"/>
 	</head>
-	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-	<script type="text/javascript" src="js/scrollTop.js"></script>
-	<script type="text/javascript" src="js/shop.js"></script>
+	<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/scrollTop.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pro.js" type="text/javascript" charset="utf-8"></script>
 	<body>
 		<div id="header">
 			<ul>
@@ -33,111 +33,78 @@
 				<div id="shopcar" style="background: url(img/sprite-icons.svg) no-repeat;background-position: -130px -152px;" /></div>
 			</div>
 		</div>
-		<div id="banner">
-			<img src="img/2017030203030058b7d088a53b4.jpg"/>
+		<div id="section">
+			<div id="main_top"><p>首页 / 商品列表 / R9s金色前后1600万像素</p></div>
 		</div>
 		<section>
 			<div id="box">
-				<a href="商城1.html">	<div class="pho_1">
-					<img class="ab_f" src="img/ribbon-icon-cheap.png">
-				     <img src="img/20161129081101583d76e536507.png"/>
-						<p class="p1">R9s玫瑰金 前后1600万像素</p>
-						<p class="p2"><a href="#">￥2799</a></p>
-					</div></a>
-					<div class="pho_1">
-					<img class="ab_f" src="img/ribbon-icon-cheap.png">
-				     <img src="img/2016120610125258462660023ba.png"/>
-						<p class="p1">R9s黑色版 全新配色</p>
-						<p class="p2"><a href="#">￥2799</a></p>
-					</div>
-					<div class="pho_1">
-				     <img src="img/20161129081101583d76e536507.png"/>
-						<p class="p1">R9s Plus玫瑰金 6GB+64GB内存</p>
-						<p class="p2"><a href="#">￥3499</a></p>
-					</div>
-					<div class="pho_1">
-				     <img src="img/20161227061221586242810b5c1.png"/>
-						<p class="p1">R9s Plus黑色版 大屏拍照旗舰</p>
-						<p class="p2"><a href="#">￥3499</a></p>
-					</div>
-			   </div>
-			   <div id="box">
-					<div class="pho_1">
-					<img class="ab_f" src="img/ribbon-icon-new.png">
-				     <img src="img/1.png"/>
-						<p class="p1">A57玫瑰金 1600万像素美颜自拍</p>
-						<p class="p2"><a href="#">￥1599</a></p>
-					</div>
-					<div class="pho_1">
-					<img class="ab_f" src="img/ribbon-icon-new.png">
-				     <img src="img/2.png"/>
-						<p class="p1">A57金色 1600万像素美颜自拍</p>
-						<p class="p2"><a href="#">￥1599</a></p>
-					</div>
-					<div class="pho_1">
-				     <img src="img/3.png"/>
-						<p class="p1">A59s玫瑰金 1600万金属自拍神器</p>
-						<p class="p2"><a href="#">￥1799</a></p>
-					</div>
-					<div class="pho_1">
-				     <img src="img/4.png"/>
-						<p class="p1">A37玫瑰金 留住美一刻</p>
-						<p class="p2"><a href="#">￥1199</a></p>
-					</div>
-			   </div>
+				<ul id="list">
+				<li><img src="img/a.png"></li>
+				<li><img src="img/b.png"></li>
+				<li><img src="img/c.png"></li>
+				<li><img src="img/d.png"></li>
+			</ul>
+			<ul id="lis">
+				<li class="active"><img src="img/a.png"></li>
+				<li><img src="img/b.png"></li>
+				<li><img src="img/c.png"></li>
+				<li><img src="img/d.png"></li>
+			</ul>
+			</div>
+			<div id="style">
+				<h2>R9s 金色  前后1600万像素</h2>
+				<p>5.5英寸，4G运存+64GB内存，3010mAh大电池，充电5分钟通话2小时</p>
+				<h3>￥2799</h3>
+				<div id="intru">
+					<h4>颜色</h4><span>金色</span><span>玫瑰金</span><span>黑色</span>
+				</div>
+				<div id="intru">
+					<h4>网络</h4><span>全网通</span>
+				</div>
+				<div id="intru">
+					<h4>容量</h4><span>64GB</span>
+				</div>
+				<div id="gift">
+					<div><h4>赠品</h4><img src="img/a1.jpg"><a href="">蓝牙音箱Q9</a><span>深蓝</span></div>
+					<div><img src="img/a2.png"><a href="">R9s 保护壳</a><span>河畔蓝</span></div>
+				</div>
+				<div id="gift_1">
+					<div id="fuwu"><h4>服务</h4><div><a href="">碎</a><span>屏碎保一年 ￥ 129</span></div><div><a href="">意</a><span>意外保一年 ￥ 179</span></div></div>
+					<div id="fuwu"><div><a href="">延</a><span>延保半年 ￥ 0</span></div><div><a href="">延</a><span>延保一年 ￥ 129</span></div>
+				</div>
+			</div>
+			<div id="numshop">
+				<div id="numbox">
+					<a id="minus" href="###">-</a>
+					<input type="text" name="txt" id="txt" value="1" />
+					<a id="plus" href="###">+</a>
+			</div>
+			<div id="joinshop">加入购物车</div>
+			<div id="goshop">立即购买</div>
+			</div>
+			<div id="post">
+			  	<div class="post_1"><div style="background: url(img/11.svg) no-repeat;background-position: -522px -377px;"></div><span>顺丰包邮</span></div>
+			  	<div class="post_1"><div style="background: url(img/11.svg) no-repeat;background-position: -522px -407px;"></div><span>7天包退30天包换</span></div>
+			  	<div class="post_1"><div style="background: url(img/11.svg) no-repeat;background-position: -522px -440px;"></div><span>电子发票</span></div>
+			  	<div class="post_1"><div style="background: url(img/11.svg) no-repeat;background-position: -522px -472px;"></div><span>购物返积分</span></div>
+			</div>
+		</div>
 		</section>
-		<section>
-			<div id="box">
-					<div class="pho_1">
-				     <img src="img/1.jpg"/>
-						<p class="p1">VOOC闪充电头适配器AK779</p>
-						<p class="p2"><a href="#">￥79</a></p>
-					</div>
-					<div class="pho_1">
-				     <img src="img/2.jpg"/>
-						<p class="p1">原装电源适配器 CF1101</p>
-						<p class="p2"><a href="#">￥19</a></p>
-					</div>
-					<div class="pho_1">
-				     <img src="img/3.jpg"/>
-						<p class="p1">VOOC闪充USB数据线 DL118</p>
-						<p class="p2"><a href="#">￥29</a></p>
-					</div>
-					<div class="pho_1">
-				     <img src="img/4.jpg"/>
-						<p class="p1">原装USB数据线</p>
-						<p class="p2"><a href="#">￥19</a></p>
-					</div>
-			   </div>
-			   <div id="box">
-					<div class="pho_1">
-				<img class="ab_f" src="img/ribbon-icon-new.png">
-				     <img src="img/5.png"/>
-						<p class="p1">OPPO原装入耳式耳机</p>
-						<p class="p2"><a href="#">￥59</a></p>
-					</div>
-					<div class="pho_1">
-				     <img src="img/6.png"/>
-						<p class="p1">OPPO时尚单品自拍杆</p>
-						<p class="p2"><a href="#">￥39</a></p>
-					</div>
-					<div class="pho_1">
-					<img class="ab_f" src="img/ribbon-icon-new.png">
-				     <img src="img/7.png"/>
-						<p class="p1">R9s 液态硅胶保护壳 白色</p>
-						<p class="p2"><a href="#">￥49</a></p>
-					</div>
-					<div class="pho_1">
-				     <img src="img/8.png"/>
-						<p class="p1">R9s 液态硅胶保护壳 河畔蓝</p>
-						<p class="p2"><a href="#">￥49</a></p>
-					</div>
-			   </div>
-		</section>
-		<div id="adress">
-		  <div>
-			  <img src="img/sercices_1080x530.png">
-		  </div>
+		<div id="main">
+			<div id="main_1">
+				<a href="###">商品详情</a>
+				<a href="###">规格参数</a>
+				<a href="###">用户评价(335)</a>
+			</div>
+			<img src="img/12.jpg"/>
+			<img src="img/13.jpg"/>
+			<img src="img/14.jpg"/>
+			<img src="img/15.jpg"/>
+			<img src="img/16.jpg"/>
+			<img src="img/17.jpg"/>
+			<img src="img/18.jpg"/>
+			<img src="img/19.jpg"/>
+			<img src="img/20.jpg"/>
 		</div>
 		<div id="footer">
 			<div id="footerTop">
@@ -233,5 +200,14 @@
 		<div id="shopinfo">
 			<a href="http://oim.oppo.com/oim/chatClient/chatbox.jsp?companyID=8092&configID=890&enterurl=http%3A%2F%2Foim%2Emyoppo%2Ecom%2Foim%2Fpreview%2Ejsp&pagereferrer=http%3A%2F%2Foim%2Emyoppo%2Ecom%2Foim%2FembedScript%2Ejsp%3Ft%3D1517&k=1">购物咨询</a>
 		</div>
+		<div id="mainposition">
+			<div id="main_2">
+				<a href="###">商品详情</a>
+				<a href="###">规格参数</a>
+				<a href="###">用户评价(335)</a>
+				<a href="###">购买</a>
+			</div>
 	</body>
+	<script src="js/move.js"></script>
+	<script type="text/javascript" src="js/shop04.js"></script>
 </html>

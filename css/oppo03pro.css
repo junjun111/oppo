@@ -339,6 +339,7 @@ aside {
   background: #2AAD6F;
   color: #fff;
   position: fixed;
+  z-index: 2;
   left: 1122px;
   bottom: 78px;
   cursor: pointer;
@@ -358,6 +359,7 @@ aside {
   background: #2AAD6F;
   color: #fff;
   position: fixed;
+  z-index: 2;
   left: 1122px;
   bottom: 40px;
   cursor: pointer;

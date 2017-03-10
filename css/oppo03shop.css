@@ -313,4 +313,18 @@ article {
         font-weight: bolder;
         color: #7b7b7b; }
 
+#shopinfo {
+  width: 71px;
+  height: 74px;
+  line-height: 74px;
+  background: #2AAD6F;
+  cursor: pointer;
+  text-align: center;
+  position: fixed;
+  left: 1135px;
+  top: 300px; }
+  #shopinfo a {
+    font-size: 16px;
+    color: #fff; }
+
 /*# sourceMappingURL=oppo03shop.css.map */
