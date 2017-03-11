@@ -122,10 +122,11 @@ section{
         width:380px;
         height:140px;
         margin-left:10px;
-        margin-bottom: 10px;
+        //margin-bottom: 10px;
         img{
             width:380px;
             height:140px;
+            border-bottom: 10px solid white;
         }
         p{
             cursor: pointer;
@@ -136,12 +137,62 @@ section{
             bottom:20px;
         }
     }
-    .hidebox{
+    .hidebox,.hidebox_1{
         width:1170px;
         height:357px;
         border:1px solid #e0e0e0;
-        //display: none;
-        .hidepho{
+        display: none;
+        overflow: hidden;
+        position: relative;
+      //  padding-left:80px;
+        .posi_left{
+            width:52px;
+            height:52px;
+            line-height: 52px;
+            text-align: center;
+            border-radius: 52px;
+            background: #e0e0e0;
+            position: absolute;
+            left:20px;
+            top:50%;
+            font-size: 20px;
+            color:#292929;
+            cursor: pointer;
+            z-index: 2;
+            &:hover{
+                background:#47b488;
+                color:#E0E0E0;
+            }
+           // display: none;
+        }
+        .posi_right{
+            width:52px;
+            height:52px;
+            line-height: 52px;
+            text-align: center;
+            border-radius: 52px;
+            background: #e0e0e0;
+            position: absolute;
+            right:20px;
+            top:50%;
+            font-size: 20px;
+            color:#292929;
+            cursor: pointer;
+            z-index: 2;
+            &:hover{
+                background:#47b488;
+                color:#E0E0E0;
+            }
+         //   display:none;
+        }
+        ul{
+            position:absolute;
+            left:0;
+            top:0;
+        }
+        li{
+            float: left;
+            margin-left:70px ;
             margin-top:50px;
             width:202px;
             height:272px;

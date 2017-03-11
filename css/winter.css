@@ -110,11 +110,11 @@ section {
     float: left;
     width: 380px;
     height: 140px;
-    margin-left: 10px;
-    margin-bottom: 10px; }
+    margin-left: 10px; }
     #section_2 div img {
       width: 380px;
-      height: 140px; }
+      height: 140px;
+      border-bottom: 10px solid white; }
     #section_2 div p {
       cursor: pointer;
       width: 21px;
@@ -122,19 +122,62 @@ section {
       position: absolute;
       right: 20px;
       bottom: 20px; }
-  #section_2 .hidebox {
+  #section_2 .hidebox, #section_2 .hidebox_1 {
     width: 1170px;
     height: 357px;
-    border: 1px solid #e0e0e0; }
-    #section_2 .hidebox .hidepho {
+    border: 1px solid #e0e0e0;
+    display: none;
+    overflow: hidden;
+    position: relative; }
+    #section_2 .hidebox .posi_left, #section_2 .hidebox_1 .posi_left {
+      width: 52px;
+      height: 52px;
+      line-height: 52px;
+      text-align: center;
+      border-radius: 52px;
+      background: #e0e0e0;
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      font-size: 20px;
+      color: #292929;
+      cursor: pointer;
+      z-index: 2; }
+      #section_2 .hidebox .posi_left:hover, #section_2 .hidebox_1 .posi_left:hover {
+        background: #47b488;
+        color: #E0E0E0; }
+    #section_2 .hidebox .posi_right, #section_2 .hidebox_1 .posi_right {
+      width: 52px;
+      height: 52px;
+      line-height: 52px;
+      text-align: center;
+      border-radius: 52px;
+      background: #e0e0e0;
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      font-size: 20px;
+      color: #292929;
+      cursor: pointer;
+      z-index: 2; }
+      #section_2 .hidebox .posi_right:hover, #section_2 .hidebox_1 .posi_right:hover {
+        background: #47b488;
+        color: #E0E0E0; }
+    #section_2 .hidebox ul, #section_2 .hidebox_1 ul {
+      position: absolute;
+      left: 0;
+      top: 0; }
+    #section_2 .hidebox li, #section_2 .hidebox_1 li {
+      float: left;
+      margin-left: 70px;
       margin-top: 50px;
       width: 202px;
       height: 272px;
       text-align: center; }
-      #section_2 .hidebox .hidepho img {
+      #section_2 .hidebox li img, #section_2 .hidebox_1 li img {
         width: 202px;
         height: 234px; }
-      #section_2 .hidebox .hidepho h5 {
+      #section_2 .hidebox li h5, #section_2 .hidebox_1 li h5 {
         width: 202px;
         height: 38px;
         font-size: 20px;
