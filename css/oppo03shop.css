@@ -61,7 +61,22 @@ a {
       margin-top: 20px;
       width: 80px;
       height: 52px;
-      float: right; }
+      float: right;
+      position: relative;
+      cursor: pointer; }
+      #nav .nav-right #shopcar span {
+        position: absolute;
+        display: block;
+        width: 19px;
+        height: 19px;
+        background: #2AAD6F;
+        line-height: 19px;
+        text-align: center;
+        border-radius: 50%;
+        left: 22px;
+        top: 0; }
+        #nav .nav-right #shopcar span a {
+          color: white; }
 
 .nav-right a:hover {
   font-weight: bolder;

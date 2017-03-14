@@ -64,6 +64,23 @@
             width:80px;
             height:52px;
             float: right;
+            position: relative;
+            cursor: pointer;
+            span{
+                position: absolute;
+                display: block;
+                width:19px;
+                height:19px;
+                background: #2AAD6F;
+                line-height: 19px;
+                text-align: center;
+                border-radius: 50%;
+                left:22px;
+                top:0;
+                a{
+                    color:white;
+                }
+            }
         }
     }
 }

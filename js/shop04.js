@@ -79,3 +79,6 @@
            $("#intru span").mouseout(function(){
 				$(this).css({"border":"1px solid #E1E1E1"});
 			});
+			$("#joinshop").click(function(){
+				$("#shopcar span").html($("#txt").val());
+			});

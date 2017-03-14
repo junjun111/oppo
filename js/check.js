@@ -26,7 +26,7 @@ $(function(){
 	 	if(otext==$("#main_bottom span").html()){
 	 		alert("验证码正确");
 	 	}else{
-	 	   alert("验证码错误");
+	 		alert("验证码错误");
 	 	}
 	 }
 	 });

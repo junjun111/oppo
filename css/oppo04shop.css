@@ -64,7 +64,22 @@ body {
       margin-top: 20px;
       width: 80px;
       height: 52px;
-      float: right; }
+      float: right;
+      position: relative;
+      cursor: pointer; }
+      #nav .nav-right #shopcar span {
+        position: absolute;
+        display: block;
+        width: 19px;
+        height: 19px;
+        background: #2AAD6F;
+        line-height: 19px;
+        text-align: center;
+        border-radius: 50%;
+        left: 22px;
+        top: 0; }
+        #nav .nav-right #shopcar span a {
+          color: white; }
 
 .nav-right a:hover {
   font-weight: bolder;
@@ -553,5 +568,105 @@ article {
         line-height: 40px;
         background: #2AAD6F;
         color: #EDEDED; }
+
+#main-box {
+  width: 440px;
+  height:521px;
+  background: #fff;
+  border:1px solid #878B8A;
+  position: fixed;
+  left: 30%;
+  top: 20%; }
+  #main-box #header_2 {
+    width: 440px;
+    height: 45px;
+    padding-left: 10px; }
+    #main-box #header_2 .head_2 {
+      width: 420px;
+      height: 45px;
+      padding-left: 50px;
+      border-bottom: 1px solid #B6B6B6; }
+      #main-box #header_2 .head_2 li {
+        width: 122px;
+        height: 45px;
+        text-align: center;
+        line-height: 45px;
+        float: left; }
+        #main-box #header_2 .head_2 li:nth-child(1) a {
+          color: #2AAD6F; }
+        #main-box #header_2 .head_2 li:nth-child(3) img {
+          width: 17px;
+          height: 17px; }
+        #main-box #header_2 .head_2 li a {
+          font-size: 14px;
+          color: #292929;
+          font-weight: bolder;
+          padding-left: 15px;
+          padding-bottom: 10px;
+          padding-right: 15px; }
+  #main-box #section_3 {
+    margin-top: 50px;
+    padding-left: 50px;
+    width: 440px;
+    height: 400px; }
+    #main-box #section_3 .box_2 {
+      width: 420px;
+      height: 400px; }
+      #main-box #section_3 .box_2 .box_top {
+        width: 320px;
+        height: 74px;
+        text-align: center; }
+        #main-box #section_3 .box_2 .box_top h3 {
+          margin-top: 20px;
+          width: 320px;
+          height: 20px;
+          color: #363636;
+          font-size: 18px;
+          font-weight: 500; }
+      #main-box #section_3 .box_2 .box_from {
+        margin-top: 40px;
+        width: 320px;
+        height: 400px; }
+        #main-box #section_3 .box_2 .box_from input {
+          width: 320px;
+          height: 46px;
+          margin-bottom: 15px;
+          line-height: 46px;
+          border: 1px solid #e2e2e2; }
+        #main-box #section_3 .box_2 .box_from .other {
+          width: 318px;
+          height: 23px;
+          margin-top: 40px; }
+          #main-box #section_3 .box_2 .box_from .other img {
+            width: 318px;
+            height: 23px; }
+        #main-box #section_3 .box_2 .box_from p {
+          width: 72px;
+          height: 15px;
+          float: right;
+          font-size: 12px;
+          color: #2AAD6F;
+          text-decoration: underline; }
+        #main-box #section_3 .box_2 .box_from #btn {
+          margin-top: 30px;
+          font-size: 24px;
+          color: #EDEDED;
+          background: #2AAD6F; }
+          #main-box #section_3 .box_2 .box_from #btn:hover {
+            background: #57B488; }
+        #main-box #section_3 .box_2 .box_from #ico_qq {
+          width: 320px;
+          height: 55px;
+          text-align: center;
+          padding-top: 25px;
+          padding-left: 90px; }
+          #main-box #section_3 .box_2 .box_from #ico_qq a {
+            float: left;
+            width: 30px;
+            height: 30px;
+            margin-right: 5px; }
+            #main-box #section_3 .box_2 .box_from #ico_qq a img {
+              width: 30px;
+              height: 30px; }
 
 /*# sourceMappingURL=oppo04shop.css.map */
